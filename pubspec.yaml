@@ -1,0 +1,77 @@
+name: learn_ar_3d
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # iOS-style icons
+  cupertino_icons: ^1.0.8
+
+  # Fonts
+  google_fonts: ^8.2.1
+
+  # Mathematics / 3D calculations
+  vector_math: ^2.4.3
+
+  # State management
+  provider: ^6.1.5+1
+
+  # 3D model viewer and AR
+  model_viewer_plus: ^1.10.0
+
+  # WebView support
+  webview_flutter: ^4.14.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # 3D models and other application assets.
+  #
+  # NOTE: Flutter does NOT bundle subfolders automatically. Every folder that
+  # directly contains files must be listed here explicitly, with a trailing
+  # slash, or those files will fail to load on a real device/APK (even though
+  # they may appear to work on Flutter Web).
+  assets:
+    - assets/onboarding/
+    - assets/images/domains/
+
+    - assets/models/computer_hardware/
+    - assets/models/computer_hardware/cpu/
+    - assets/models/computer_hardware/gpu/
+    - assets/models/computer_hardware/motherboard/
+
+    - assets/models/medical/
+    - assets/models/medical/body/
+    - assets/models/medical/brain/
+    - assets/models/medical/circulatory/
+    - assets/models/medical/digestive/
+    - assets/models/medical/ear/
+    - assets/models/medical/eye/
+    - assets/models/medical/heart/
+    - assets/models/medical/intestine/
+    - assets/models/medical/kidney/
+    - assets/models/medical/liver/
+    - assets/models/medical/lungs/
+    - assets/models/medical/muscular/
+    - assets/models/medical/nervous/
+    - assets/models/medical/pancreas/
+    - assets/models/medical/respiratory/
+    - assets/models/medical/rib/
+    - assets/models/medical/skeleton/
+    - assets/models/medical/skull/
+    - assets/models/medical/spine/
+    - assets/models/medical/stomach/
